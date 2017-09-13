@@ -22,6 +22,5 @@ console.log(e instanceof Person);
 console.log(typeof undefined); // makes sense
 console.log(typeof null); // a bug since, like, forever...
 
-var z = function() { };
+var z = function () {};
 console.log(typeof z);
-
