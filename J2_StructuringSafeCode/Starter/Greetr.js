@@ -1,10 +1,10 @@
-;
+; //This simicolon is here in the event of code before it not properly closing it semicolons. 
 (function (global, $) {
 
     // 'new' an object
     var Greetr = function (firstName, lastName, language) {
         return new Greetr.init(firstName, lastName, language);
-    }
+    };
 
     // hidden within the scope of the IIFE and never directly accessible
     var supportedLangs = ['en', 'es'];
